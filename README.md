@@ -1,5 +1,15 @@
 # ERC20 ICO with Vesting schedule
 
+- Crowdsale
+- Timed Crowdsale
+- Capped Crowdsale
+- Minted Crowdsale
+- Whitelist Crowdsale
+- Refundable Crowdsale
+
+- Presale/Public Sale
+- Token Distribution & Vesting
+
 Install repository using `yarn`
 
 ## Test locally
