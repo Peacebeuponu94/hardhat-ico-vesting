@@ -1,18 +1,20 @@
 # ERC20 ICO with Vesting schedule
 
-- Crowdsale
-- Timed Crowdsale
-- Capped Crowdsale
-- Minted Crowdsale
-- Whitelist Crowdsale
-- Refundable Crowdsale
+- Crowdsale (send eth to smart contract and compute ammount of tokens based on a rate)
+- Timed Crowdsale (opening time and closing time)
+- Capped Crowdsale (maximum amount of funds it can raise on a crowd sale)
+- Minted Crowdsale (every time a token is purchased, it is minted, instead of having a set total supply)
+- Whitelist Crowdsale (if you're on a previously crafted list of addresses, you can buy)
+- Refundable Crowdsale (minimum funding goal, if not met, all of the funds sold in the public round are going to be refunded from a refund vault)
 
-- Presale/Public Sale
-- Token Distribution & Vesting
+- Presale/Public Sale (ICO has two stages, presale has a different redemption rate, more tokens per eth)
+- Token Distribution & Vesting (distribution of initial tokens)
+
+## How to use
 
 Install repository using `yarn`
 
-## Test locally
+### Test locally
 
 1. Open a terminal and run `yarn hardhat node`
 2. On another terminal, run `yarn hardhat run scripts/deploy.js --network localhost`
